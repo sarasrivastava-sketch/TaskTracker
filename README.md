@@ -1,21 +1,37 @@
-<<<<<<< HEAD
-# React + Vite
+# TeamTrack
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **Make teamwork clear.**
 
-Currently, two official plugins are available:
+TeamTrack is a student project management web prototype designed to help college teams organize projects, assign tasks, and track progress.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 📁 Create multiple projects
+- 🎓 Select a course for each project
+- 👥 Create separate teams for each project
+- ➕ Add team members
+- ✅ Assign and manage tasks
+- 📊 Track project progress
+- 🔄 Switch between projects
+- 💾 Save project data using local storage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+- React
+- JavaScript
+- Vite
+- HTML
+- CSS
+- Local Storage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-=======
-# TeamTracker
-A simple student project management prototype for organizing college teams, assigning tasks, tracking contributions, and monitoring project progress.
->>>>>>> ef68c315bbf7256a04cad924a1e8feb7be27df66
+## 🎯 Problem
+
+College students often face problems such as unequal participation, unclear task responsibilities, poor communication, and difficulty tracking individual contributions.
+
+**TeamTrack** provides a simple centralized way to organize teams and make project responsibilities more visible.
+
+## 🚀 Run Locally
+
+```bash
+npm install
+npm run dev
